@@ -3,8 +3,8 @@
 # re-georeference landslide shapefiles
 
 
-mkdir ../landslides_georeferenced_take2
-outdir=../landslides_georeferenced_take2
+mkdir ../landslides_georeferenced
+outdir=../landslides_georeferenced
 
 for landslide in `ls *.shp *.shx *.dbf`
 do
